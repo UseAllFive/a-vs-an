@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-0": {"UseAllFive\\AvsAnBundle": "src/"}
+    },
+    "description": "Determines whether 'a' or 'an' should precede a word",
+    "minimum-stability": "dev",
+    "name": "useallfive/a-vs-and"
+}
