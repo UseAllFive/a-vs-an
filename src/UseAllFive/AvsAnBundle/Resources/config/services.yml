@@ -1,0 +1,10 @@
+parameters:
+    a_vs_an.class: UseAllFive\AvsAnBundle\AvsAn
+    a_vs_an.dictionary.class: UseAllFive\AvsAnBundle\Dictionary\Dictionary
+
+services:
+    a_vs_an.dictionary:
+        class: %a_vs_an.dictionary.class%
+    a_vs_an:
+        class: %a_vs_an.class%
+        arguments: [@a_vs_an.dictionary]
