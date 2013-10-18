@@ -1,8 +1,16 @@
 {
+    "authors": [
+        {
+            "name": "Zach Brown",
+            "email": "zeebz91@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-0": {"UseAllFive\\AvsAnBundle": "src/"}
     },
     "description": "Determines whether 'a' or 'an' should precede a word",
-    "minimum-stability": "dev",
-    "name": "useallfive/a-vs-an"
+    "name": "useallfive/a-vs-an",
+    "license": "Apache-2.0",
+    "keywords": ["a", "an", "article", "prefix", "avsan"]
 }

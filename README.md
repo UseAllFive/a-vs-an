@@ -4,18 +4,7 @@ AvsAn Symfony Bundle
 PHP port of http://home.nerbonne.org/A-vs-An/
 
 ## Installation
-With [composer](http://getcomposer.org), add this repository to the repositories array:
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/UseAllFive/a-vs-an.git"
-        }
-    ]
-}
-```
-Add it to the require hash of your composer.json
+With [composer](http://getcomposer.org):
 ```json
 {
     "require": {
