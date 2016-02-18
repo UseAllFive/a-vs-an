@@ -7,4 +7,4 @@ services:
         class: %a_vs_an.dictionary.class%
     a_vs_an:
         class: %a_vs_an.class%
-        arguments: [@a_vs_an.dictionary]
+        arguments: ['@a_vs_an.dictionary']

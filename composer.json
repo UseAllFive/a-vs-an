@@ -9,8 +9,9 @@
     "autoload": {
         "psr-0": {"UseAllFive\\AvsAnBundle": "src/"}
     },
-    "description": "Determines whether 'a' or 'an' should precede a word",
-    "name": "useallfive/a-vs-an",
+    "description": "Determines whether 'a' or 'an' should precede a word. This fork fixes a slight error in the services.yaml. It can be removed if the author does fix this.",
+    "name": "matthewbooth/a-vs-an",
     "license": "Apache-2.0",
     "keywords": ["a", "an", "article", "prefix", "avsan"]
 }
+
